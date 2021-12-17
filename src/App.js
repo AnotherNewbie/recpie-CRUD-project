@@ -17,8 +17,8 @@ function App() {
 
   // TODO: Add the ability for the <RecipeCreate /> component to create new recipes.
 
-  const createRecipe = (newRecipe) =>{
-    setRecipes([...recipes, newRecipe] );
+  const createRecipe = (newRecipe) =>{    
+    setRecipes([...recipes, newRecipe.formData] );
   }
   
   return (
