@@ -54,10 +54,10 @@ table {
   text-overflow: ellipsis;
 }
 
-.photo {
+img {
   object-fit: scale-down;
-  width:100%;
-  height: 100%
+  width: 100%;
+  height: 100%;
 }
 
 /* Column Size for thead */

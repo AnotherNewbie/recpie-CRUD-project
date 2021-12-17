@@ -15,7 +15,7 @@ function RecipeList({recipes}) {
           <p>{recipe.cuisine}</p>
         </td>
         <td className="content_td">
-          <img className="Photo" src={recipe.photo}></img>
+          <img src={recipe.photo}></img>
         </td>
         <td className="content_td">
           <p>{recipe.ingredients}</p>
