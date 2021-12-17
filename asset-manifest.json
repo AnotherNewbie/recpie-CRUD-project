@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/recpie-CRUD-project/static/css/main.a59acca2.chunk.css",
+    "main.css": "/recpie-CRUD-project/static/css/main.0536eee8.chunk.css",
     "main.js": "/recpie-CRUD-project/static/js/main.ccfd5a7b.chunk.js",
     "main.js.map": "/recpie-CRUD-project/static/js/main.ccfd5a7b.chunk.js.map",
     "runtime-main.js": "/recpie-CRUD-project/static/js/runtime-main.64a29edd.js",
@@ -8,15 +8,15 @@
     "static/js/2.32cef4b2.chunk.js": "/recpie-CRUD-project/static/js/2.32cef4b2.chunk.js",
     "static/js/2.32cef4b2.chunk.js.map": "/recpie-CRUD-project/static/js/2.32cef4b2.chunk.js.map",
     "index.html": "/recpie-CRUD-project/index.html",
-    "precache-manifest.d6a8dac31353b2e64ea8ebabbc3e058d.js": "/recpie-CRUD-project/precache-manifest.d6a8dac31353b2e64ea8ebabbc3e058d.js",
+    "precache-manifest.990a65f09bd9c1d45d228928a3daaca3.js": "/recpie-CRUD-project/precache-manifest.990a65f09bd9c1d45d228928a3daaca3.js",
     "service-worker.js": "/recpie-CRUD-project/service-worker.js",
-    "static/css/main.a59acca2.chunk.css.map": "/recpie-CRUD-project/static/css/main.a59acca2.chunk.css.map",
+    "static/css/main.0536eee8.chunk.css.map": "/recpie-CRUD-project/static/css/main.0536eee8.chunk.css.map",
     "static/js/2.32cef4b2.chunk.js.LICENSE.txt": "/recpie-CRUD-project/static/js/2.32cef4b2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.64a29edd.js",
     "static/js/2.32cef4b2.chunk.js",
-    "static/css/main.a59acca2.chunk.css",
+    "static/css/main.0536eee8.chunk.css",
     "static/js/main.ccfd5a7b.chunk.js"
   ]
 }
