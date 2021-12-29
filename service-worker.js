@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/recpie-CRUD-project/precache-manifest.990a65f09bd9c1d45d228928a3daaca3.js"
+  "/recpie-CRUD-project/precache-manifest.606e063d34ebad31541627412aca03fa.js"
 );
 
 self.addEventListener('message', (event) => {
