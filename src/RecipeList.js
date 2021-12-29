@@ -1,7 +1,7 @@
 import React from "react";
-import RecipeListHead from "./recipeListHead";
+import RecipeListHead from "./RecipeListHead";
 
-function RecipeList({recipes, deleteRecipe, editRecipe}) {
+function RecipeList({recipes, deleteRecipe }) {
   
   // TODO: Display the list of recipes using the structure of table that is provided.
   // TODO: Create at least one additional component that is used by this component.
