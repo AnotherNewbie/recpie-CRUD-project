@@ -1,6 +1,7 @@
 import React from "react";
+import RecipeListHead from "./recipeListHead";
 
-function RecipeList({recipes, deleteRecipe}) {
+function RecipeList({recipes, deleteRecipe, editRecipe}) {
   
   // TODO: Display the list of recipes using the structure of table that is provided.
   // TODO: Create at least one additional component that is used by this component.
@@ -9,6 +10,11 @@ function RecipeList({recipes, deleteRecipe}) {
   const deleteRecipeHandler = (deleteIndex) => {
     deleteRecipe(deleteIndex);
   }
+
+  // const editRecipeHandler = (editIndex) => {
+  //   editRecipeHandler(editIndex);
+  // }
+
 
   if(recipes.length){    
     const list = recipes.map((recipe,index) => {
@@ -29,23 +35,15 @@ function RecipeList({recipes, deleteRecipe}) {
           <td className="content_td">
             <p>{recipe.preparation}</p>
           </td>
+          {/* <td><button name="edit" onClick={()=>editRecipeHandler(index)}>Edit</button></td> */}
           <td><button name="delete" onClick={()=>deleteRecipeHandler(index)}>Delete</button></td>      
         </tr>
       )
-    });
+    });    
   return (
     <div className="recipe-list">
       <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Cuisine</th>
-            <th>Photo</th>
-            <th>Ingredients</th>
-            <th>Preperation</th>
-            <th>Actions</th>
-          </tr>
-        </thead>
+        <RecipeListHead />
         <tbody>
           {list}          
         </tbody>
