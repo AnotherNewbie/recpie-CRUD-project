@@ -11,11 +11,7 @@ function RecipeList({recipes, deleteRecipe }) {
     deleteRecipe(deleteIndex);
   }
 
-  // const editRecipeHandler = (editIndex) => {
-  //   editRecipeHandler(editIndex);
-  // }
-
-
+  
   if(recipes.length){    
     const list = recipes.map((recipe,index) => {
       return(
@@ -34,8 +30,7 @@ function RecipeList({recipes, deleteRecipe }) {
           </td>
           <td className="content_td">
             <p>{recipe.preparation}</p>
-          </td>
-          {/* <td><button name="edit" onClick={()=>editRecipeHandler(index)}>Edit</button></td> */}
+          </td>  
           <td><button name="delete" onClick={()=>deleteRecipeHandler(index)}>Delete</button></td>      
         </tr>
       )
